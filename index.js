@@ -1,5 +1,5 @@
-function test(string) {
+const test = (string) => {
   return string === 'STRING';
-}
+};
 
-module.exports = test;
+export default test;
